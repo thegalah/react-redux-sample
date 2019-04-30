@@ -1,16 +1,7 @@
 import Data from "../Data/Data";
 import React, { Component } from "react";
 import StoreData from "../Data/StoreData";
-import {
-    Button,
-    Col,
-    Input,
-    InputGroup,
-    InputGroupAddon,
-    ListGroup,
-    ListGroupItem,
-    Row
-    } from "reactstrap";
+import { Button, Col, Input, InputGroup, InputGroupAddon, ListGroup, ListGroupItem, Row } from "reactstrap";
 import { connect } from "react-redux";
 
 interface TodosViewProps {
